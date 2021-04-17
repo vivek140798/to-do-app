@@ -1,0 +1,74 @@
+html{
+  background-color: chocolate;
+}
+.to-do{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+@media (max-width: 500px) {
+  .to-do{
+    margin: auto;
+    width: 100%;
+  }
+}
+form{
+  background-color:white;
+  padding: 10px;
+  border-radius: 10px;
+}
+ul{
+  list-style: none;
+}
+li{
+  border-bottom: 1px solid blue;
+  padding:10px 0px 10px 0px;
+  font-size: 1.2em;
+}
+input[type="text"]{
+  width: 70%;
+  height: 30px;
+  outline: 0;
+  border: none;
+  font-size: 1.2em;
+}
+button{
+  width: 25%;
+  font-size: 1.2em;
+  color: blue;
+  outline: 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.erase{
+  background-color: red;
+  color: white;
+  padding: 0px 3px 0px 3px;
+  cursor: pointer;
+  float: right;
+}
+  
+.to-do-list{
+  display: none;
+  background-color: white;
+  margin-top: 20px;
+  padding: 10px 40px 10px 0px;
+  border-radius: 10px;
+}
+
+#erase{
+  float: right;
+  color: red;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+#erase:hover {
+  font-weight: bold;
+}
+
+
+
